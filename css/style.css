@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: #f8f6f8;
+}
+
+.main__content {
+    width: 70%;
+    min-height: 100vh;
+    background: white;
+    border: 2px solid #f1f0f1;
+}
+
+/*Заголовок*/
+.main__content__up {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background: #ffd12f;
+}
+
+.main__content__up__p {
+    margin: auto;
+}
+
+.main__content__up__p p {
+    color: white;
+    font-size: 46px;
+}
+
+/*Заметки*/
+.todo{
+    display: flex;
+    border-left: 3px solid #a7a5a7;
+    margin: 20px 10px;
+    padding: 0px 5px;
+    height: 60px;
+    font-size:24px ;
+}
+.todo__p{
+    height: 100%;
+    width: calc(100% - 218.42px);
+}
+.todo__p p{
+    line-height: 60px;
+    padding-left: 15px;
+}
+
+.todo button{
+    padding: 15px;
+    font-size: 24px;
+    background: #ffd12f;
+    width: 218.42px;
+    border: none;
+    cursor: pointer;
+}
+/*Текстовое поле*/
+.main__content__text input {
+    padding: 10px 5px;
+    margin: 20px 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    border-bottom: 4px solid #a7a5a7;
+    width: calc(100% - 20px);
+    outline: none;
+    color: #a7a5a7;
+}
+
+/*Кнопка*/
+.main__content__button {
+text-align: end;
+}
+.main__content__button button{
+    padding: 15px;
+    font-size: 24px;
+    margin-right: 15px;
+    background: #ffd12f;
+    border: none;
+    cursor: pointer;
+}
